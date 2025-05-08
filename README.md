@@ -1,6 +1,6 @@
 # Federated Learning Experiment Runner
 
-This project contains the full experimental setup and visualization tools for evaluating various deduplication and privacy-preserving techniques in Federated Learning (FL) systems.
+This project provides a modular and extensible framework for conducting large-scale simulations in Federated Learning (FL) environments. The core objective is to evaluate and compare different deduplication mechanisms (e.g., content-based, hash-based, hybrid, exponential decay) and privacy-preserving strategies (such as differential privacy and secure aggregation) in the context of non-IID and IID data distributions across heterogeneous client devices. The framework supports simulation of client updates, aggregation under various trust assumptions, and automatic performance benchmarking using key system- and decision-level metrics like accuracy, storage efficiency, deduplication rate, and system latency. Additionally, a dedicated visualization module allows researchers to generate publication-ready plots such as accuracy comparisons, heatmaps, radar charts, and metric profiles to support in-depth analysis and result interpretation.
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
